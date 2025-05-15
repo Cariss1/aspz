@@ -26,6 +26,7 @@ malloc(0) виділяє мінімальний блок пам'яті (напр
 
 
 виправильний вивід
+
 ![image](https://github.com/user-attachments/assets/051b8120-705c-4f6b-bb28-c7f08aca4c25)
 
 
@@ -34,6 +35,7 @@ malloc(0) виділяє мінімальний блок пам'яті (напр
 Якщо realloc() не зможе виділити нову пам’ять, вона: поверне NULL, залишить початковий блок ptr неушкодженим
 
 size_t huge_size = (size_t) -1; намагається викликати realloc() з найбільшим можливим значенням. У більшості ОС це викличе невдачу виділення
+
 ![image](https://github.com/user-attachments/assets/4067a312-c74a-4fd6-ba70-4f3a16e32009)
 
 
@@ -52,6 +54,7 @@ realloc(ptr, 0) поводиться як free(ptr) і повертає NULL
 Повертає ненульовий вказівник, який не можна використовувати
 
 У більшості випадків краще явно викликати free(), якщо потрібно звільнити пам’ять
+
 ![image](https://github.com/user-attachments/assets/2787fd08-547b-4bd5-89bc-f868ae5a61db)
 
 ![image](https://github.com/user-attachments/assets/eed884b3-a7d6-4c84-913c-b777b28c8bd6)
