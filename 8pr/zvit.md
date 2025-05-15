@@ -27,7 +27,6 @@ lseek(fd, 3, SEEK_SET); переміщує покажчик файлу на 3-й
 ![image](https://github.com/user-attachments/assets/efaed090-ef76-4dec-b676-2aa50c8ef93a)
 
 
-![image](https://github.com/user-attachments/assets/3c66dfd8-2e7d-4dd5-b528-29dbd9b67d4e)
 
 Найгірші вхідні дані для класичного quicksort: вже відсортований масив, відсортований у зворотному порядку, всі елементи однакові
 
