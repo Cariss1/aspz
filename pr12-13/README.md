@@ -1,4 +1,4 @@
-Програма використовує ptrace для перехоплення падінь процесів та збору розширеної інформації.
+![image](https://github.com/user-attachments/assets/3699517a-cdde-4682-b5c4-30890746a53e)
 
 ![image](https://github.com/user-attachments/assets/538ff6d6-34c6-4fc9-a793-dac42f52b025)
 
