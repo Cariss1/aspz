@@ -1,4 +1,4 @@
-Пограма створює 5 дочірніх процесів за допомогою fork(). Кожен дочірній процес виводить свій номер і завершується, а батьківський процес очікує завершення всіх дочірніх процесів за допомогою wait():
+![image](https://github.com/user-attachments/assets/8bc726f5-db4d-4101-98b5-7798162bf997)
 
 ![image](https://github.com/user-attachments/assets/c62ddbc4-5a97-4aca-b4bd-a61b40ddc6d5)
 
